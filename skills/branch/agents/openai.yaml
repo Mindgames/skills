@@ -1,0 +1,4 @@
+interface:
+  display_name: "Branch Create"
+  short_description: "Create local issue-based branches from an updated main branch"
+  default_prompt: "Create a new local branch for this issue using the required type/scope-short-description pattern, and always sync local main from origin/main before branching."
