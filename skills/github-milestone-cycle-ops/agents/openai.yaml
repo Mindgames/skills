@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Milestone Cycle Ops"
+  short_description: "Plan and run multi-repo milestones and cycle load in GitHub."
+  default_prompt: "Run in planning_only mode: do priority intake first, then plan current/next milestones, balance cycle capacity, sync GitHub issues/milestones/labels/project board status, and produce a link-rich report with one unambiguous next-step contract. Do not edit product source code, create implementation PRs, or run build/test/lint."

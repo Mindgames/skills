@@ -1,0 +1,4 @@
+interface:
+  display_name: "Github Pull Request Review & Resolve"
+  short_description: "Audit PR feedback, apply valid fixes, and repair CI failures"
+  default_prompt: "Use $github-pull-request-review-resolve to audit this PR review feedback, apply valid fixes, and resolve build/check failures without merging."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Github Issues Audit & Labeling"
+  short_description: "Tag open issues with Agent when they are safe for autonomous agent execution"
+  default_prompt: "Use $github-label-agent-issues to triage open issues and apply Agent labels to auto-solvable items."

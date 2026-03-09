@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Sync"
+  short_description: "Sync a local Git repo with its remote safely"
+  default_prompt: "Use $github-sync to sync this repository with origin before I start work."

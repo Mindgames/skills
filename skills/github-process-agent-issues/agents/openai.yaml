@@ -1,0 +1,4 @@
+interface:
+  display_name: "Github Process Agent Issues"
+  short_description: "Process Agent-labeled issues"
+  default_prompt: "Use $github-process-agent-issues to process Agent-labeled issues into one PR per issue."

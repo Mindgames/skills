@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Issue"
+  short_description: "Create detailed GitHub issues with clear requirements"
+  default_prompt: "Use $github-issue to draft and create a new GitHub issue from my requirements."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project GitHub Issues"
+  short_description: "Create and manage multi-repo GitHub issues"
+  default_prompt: "Create or update a project GitHub issue with milestones and sub-issues."

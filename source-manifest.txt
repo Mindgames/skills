@@ -1,0 +1,12 @@
+SOURCE MANIFEST (sanitized)
+skill\tfiltered_files
+gh-address-comments\t6
+gh-fix-ci\t6
+gh-pr-audit\t3
+github-milestone-cycle-ops\t8
+project-github-issues\t2
+github-issue\t2
+github-label-agent-issues\t3
+github-process-agent-issues\t3
+github-pull-request-review-resolve\t2
+github-sync\t3

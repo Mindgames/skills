@@ -1,0 +1,4 @@
+interface:
+  display_name: "Github Pull Request Audit and Review"
+  short_description: "Audit GitHub PRs locally and post deterministic labels/comments."
+  default_prompt: "Run a full automated PR audit and post review status."
