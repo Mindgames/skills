@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pull Request Create"
+  short_description: "Create well-structured pull requests with full summary, QA evidence, and deployment notes"
+  default_prompt: "Create a PR from the current branch using best-practice structure, including concise summary, test evidence, risks, rollback plan, and issue linkage."
