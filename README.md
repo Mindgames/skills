@@ -10,6 +10,22 @@
 
 High-leverage GitHub skill workflows for AI agents that turn recurring issue, triage, and PR operations into fast, consistent execution.
 
+## Works With
+
+These skills are built to run cleanly in the most common agent frameworks, including:
+
+- OpenAI Codex
+- Claude Code
+- Cursor
+- Gemini CLI
+- GitHub Copilot
+- OpenCode
+- Cline
+- Windsurf
+- Roo Code
+
+Also supports any other agent platform supported by the `skills` ecosystem via [skills.sh](https://skills.sh) and the official [supported agent matrix](https://raw.githubusercontent.com/vercel-labs/skills/main/README.md).
+
 ## Skills
 
 ### Branch Create
