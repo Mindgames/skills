@@ -11,6 +11,7 @@
 High-leverage GitHub skill workflows for AI agents that turn recurring issue, triage, and PR operations into fast, consistent execution.
 
 ![Agent GitHub Skills](SCR-20260310-ffg.png)
+![Agent GitHub Skills Detail](SCR-20260310-gi5.png)
 
 ## Works With
 
