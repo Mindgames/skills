@@ -7,9 +7,9 @@ description: Use when a user asks to create a new local git branch and start iss
 
 ## Path Resolution (avoid missing-skill errors)
 
-- Always open this skill using the absolute path from the active session skills list (for example `~/.codex/skills/branch/SKILL.md`).
-- Do not use repo-relative `.codex/skills/...` or `.agents/skills/...` paths unless the session explicitly lists that exact path.
-- If you see an error like `.../.codex/skills/public/branch/SKILL.md: No such file or directory`, immediately switch to `~/.codex/skills/branch/SKILL.md` and continue.
+- Always open this skill using the absolute path from the active session skills list (for example `<agent-skills-root>/branch/SKILL.md`).
+- Do not use guessed repo-relative skill paths unless the session explicitly lists that exact path.
+- If you see a missing-skill error from a stale path, re-open from the active session skills list and continue.
 
 ## Workflow
 

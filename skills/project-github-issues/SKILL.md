@@ -10,8 +10,8 @@ Use this skill to create well-structured issues across a target set of repositor
 
 ## Path Resolution (avoid missing-skill errors)
 
-- Always open this skill using the absolute path from the active session skills list (for example `~/.codex/skills/private/project-github-issues/SKILL.md`).
-- Do not try repo-relative `.codex/skills/...` paths unless the session explicitly lists that exact path.
+- Always open this skill using the absolute path from the active session skills list (for example `<agent-skills-root>/project-github-issues/SKILL.md`).
+- Do not try guessed repo-relative skill paths unless the session explicitly lists that exact path.
 
 ## Repos and defaults
 - Repos: `<owner>/<repo-a>`, `<owner>/<repo-b>`, `<owner>/<repo-c>`
@@ -46,8 +46,8 @@ gh api graphql -f query='mutation($issueId:ID!,$subIssueId:ID!){removeSubIssue(i
   -F issueId=<PARENT_ID> -F subIssueId=<CHILD_ID>
 ```
 
-## Creating skills (when the issue is about Codex skills)
+## Creating skills (when the issue is about agent skills)
 - Use the `skill-creator` workflow.
-- Default location: `~/.codex/skills/private` unless user requests public.
+- Default location: the user-scope agent skills directory selected by the active platform/installer, unless the user requests a project-local or public location.
 - Initialize with `init_skill.py`, edit `SKILL.md`, then package with `package_skill.py`.
 - Keep SKILL.md concise; put long docs in references when needed.
