@@ -18,6 +18,18 @@ Also supports any other agent platform supported by the `skills` ecosystem via [
 
 ## Skills
 
+### GitHub Pull Request
+Use when the user asks to create a pull request. Build a complete PR using best-practice structure with rich details on changes, verification, QA evidence, risks, and rollout notes. Include issue linkage and clear testing commands/results in the PR body.
+```bash
+npx skills add Mindgames/skills@github-pull-request -g
+```
+
+### GitHub Pull Request Review and Resolve
+Deeply audit a GitHub pull request, analyze review comments and threads, apply legitimate fixes, resolve addressed review threads, and repair failing CI/build checks. Use when asked to handle PR review feedback, close out reviewer comments, or fix failing PR checks before merge.
+```bash
+npx skills add Mindgames/skills@github-pull-request-review-resolve -g
+```
+
 ### GitHub Issues Audit and Labeling
 Scan open GitHub issues and label those suitable for autonomous Agent execution with `Agent`; flag unclear candidates with `Needs-Spec`, enforce milestone alignment, and surface project/milestone-cycle planning gaps.
 ```bash
@@ -64,18 +76,6 @@ npx skills add Mindgames/skills@github-sync -g
 Run lint/build checks before committing and pushing code, then optionally create a PR via GitHub CLI. Use when a user asks to commit/push changes or requests a pre-push verification workflow.
 ```bash
 npx skills add Mindgames/skills@github-commit-push -g
-```
-
-### GitHub Pull Request
-Use when the user asks to create a pull request. Build a complete PR using best-practice structure with rich details on changes, verification, QA evidence, risks, and rollout notes. Include issue linkage and clear testing commands/results in the PR body.
-```bash
-npx skills add Mindgames/skills@github-pull-request -g
-```
-
-### GitHub Pull Request Review and Resolve
-Deeply audit a GitHub pull request, analyze review comments and threads, apply legitimate fixes, resolve addressed review threads, and repair failing CI/build checks. Use when asked to handle PR review feedback, close out reviewer comments, or fix failing PR checks before merge.
-```bash
-npx skills add Mindgames/skills@github-pull-request-review-resolve -g
 ```
 
 ### GitHub Pull Request Audit and Review
