@@ -1,6 +1,6 @@
 ---
 name: github-sync
-description: Sync a local Git repository with its remote safely. Use when Codex needs to update a repo before starting work, fast-forward a local branch from `origin`, confirm that local `main` or another branch matches the remote, or prepare an up-to-date base branch before creating a new branch.
+description: Sync a local Git repository with its remote safely. Use when an agent needs to update a repo before starting work, fast-forward a local branch from `origin`, confirm that local `main` or another branch matches the remote, or prepare an up-to-date base branch before creating a new branch.
 ---
 
 # GitHub Sync
@@ -34,6 +34,7 @@ scripts/sync-repo.sh --current
 
 - Never auto-stash, reset, rebase, or create a merge commit as part of sync.
 - Use fast-forward-only updates.
+- Never delete local branches or remote branches as part of sync.
 - If `origin/HEAD` is unavailable and no explicit branch was provided, stop and ask which branch to sync.
 - If the requested remote branch does not exist, stop and report the missing branch clearly.
 - For branch-creation workflows that must branch from updated `main`, run `scripts/sync-repo.sh --branch main` first.

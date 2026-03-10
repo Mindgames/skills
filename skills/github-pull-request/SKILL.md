@@ -7,8 +7,8 @@ description: "Use when the user asks to create a pull request. Build a complete 
 
 ## Path Resolution (avoid missing-skill errors)
 
-- Always open this skill using the absolute path from the active session skills list (for example `~/.codex/skills/github-pull-request/SKILL.md`).
-- Do not try repo-relative `.codex/skills/...` or `.agents/skills/...` paths unless the session explicitly lists that exact path.
+- Always open this skill using the absolute path from the active session skills list (for example `<agent-skills-root>/github-pull-request/SKILL.md`).
+- Do not try guessed repo-relative skill paths unless the session explicitly lists that exact path.
 - If you hit a missing-skill error from an old path, re-open this skill from the active session skills list and continue (do not retry repo paths).
 
 ## Workflow

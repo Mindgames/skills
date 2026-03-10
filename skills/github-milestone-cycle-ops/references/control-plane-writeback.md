@@ -5,7 +5,7 @@ Use this contract at the end of each milestone/cycle planning run.
 ## Path Rules
 
 1. Preferred root: `$PORTFOLIO_ROOT`
-2. If missing, fallback root: `<repo-root>/.codex/reports/milestone-cycle-sync`
+2. If missing, fallback root: `<repo-root>/.agents/reports/milestone-cycle-sync`
 
 ## Output Files
 

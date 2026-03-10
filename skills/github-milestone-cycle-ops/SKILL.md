@@ -251,7 +251,7 @@ Include:
 
 If control-plane path is unavailable, write the same files under:
 
-- `<repo-root>/.codex/reports/milestone-cycle-sync/`
+- `<repo-root>/.agents/reports/milestone-cycle-sync/`
 
 ## Quality Gates
 

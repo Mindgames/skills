@@ -11,8 +11,8 @@ Provide a repeatable commit-and-push workflow that runs lint/build checks first 
 
 ## Path Resolution (avoid missing-skill errors)
 
-- Always open this skill using the absolute path from the active session skills list (for example `~/.codex/skills/github-commit-push/SKILL.md`).
-- Do not try repo-relative `.codex/skills/...` paths unless the session explicitly lists that exact path.
+- Always open this skill using the absolute path from the active session skills list (for example `<agent-skills-root>/github-commit-push/SKILL.md`).
+- Do not try guessed repo-relative skill paths unless the session explicitly lists that exact path.
 
 ## Workflow
 
